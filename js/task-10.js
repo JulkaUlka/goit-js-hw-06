@@ -14,7 +14,7 @@ destroyBtnEl.addEventListener('click', event => {
 });
 
 function createBoxes(amount) {
-  const arr = [];
+  // const arr = [];
   for (let i = 0; i < amount; i++) {
     const boxItem = document.createElement('div');
     
